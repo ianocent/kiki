@@ -6,7 +6,7 @@ Sales: **Kiki Wulandari**
 WhatsApp/Telepon: **0812-9979-2420** (24 jam)
 Email: kikiwulandari936@gmail.com
 Instagram: [@kiki_suzuki_bit_tangerang_](https://instagram.com/kiki_suzuki_bit_tangerang_)
-Website: [https://ianocent.github.io/kiki/](https://ianocent.github.io/kiki/)
+Website: [https://suzukibuanaindomobiltrada.com](https://suzukibuanaindomobiltrada.com)
 
 ## Dapatkan dari Kiki
 - Info promo Suzuki Tangerang terbaru (Ertiga Hybrid, XL7, Grand Vitara, Jimny, Frontier, S-Presso, Baleno, Carry Pick Up)
