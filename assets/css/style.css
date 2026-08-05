@@ -125,3 +125,18 @@ a { text-decoration:none; color:inherit; }
 @media (max-width:520px) {
     .kw-topbar .kw-wrap { justify-content:center; }
 }
+.kw-page-head { text-align:center; max-width:660px; margin:0 auto 2.2rem; }
+.kw-page-head h1 { font-size:clamp(1.7rem,3.2vw,2.4rem); color:var(--kw-ink); font-weight:800; margin:.5rem 0 .6rem; }
+.kw-page-head p { color:#5b6b7b; font-size:.96rem; }
+.kw-banner { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1rem; margin:0 auto 2.2rem; }
+.kw-banner div { background:#fff; border:1px solid var(--kw-line); border-radius:16px; padding:1.2rem; text-align:center; }
+.kw-banner b { color:var(--kw-teal); font-size:1.05rem; display:block; margin-bottom:.3rem; }
+.kw-banner span { color:#64748b; font-size:.85rem; }
+.kw-calc { background:#fff; border:1px solid var(--kw-line); border-radius:18px; padding:1.6rem 1.5rem; max-width:600px; margin:0 auto; }
+.kw-calc label { display:block; font-size:.84rem; font-weight:600; color:#52606d; margin:.8rem 0 .35rem; }
+.kw-calc input, .kw-calc select { width:100%; padding:.7rem .9rem; border:1px solid var(--kw-line); border-radius:10px; font:inherit; background:#fbfbf8; }
+.kw-calc .kw-btn { margin-top:1.2rem; width:100%; justify-content:center; border:0; cursor:pointer; }
+.kw-calc-out { margin-top:1.2rem; background:var(--kw-mist); border-radius:12px; padding:1rem 1.1rem; font-size:.92rem; line-height:1.9; color:var(--kw-ink); }
+.kw-calc-out b { color:var(--kw-teal); }
+.kw-preview { display:flex; flex-direction:column; gap:.8rem; }
+.kw-link-more { text-align:center; margin-top:1.6rem; }
