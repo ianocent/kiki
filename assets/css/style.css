@@ -82,6 +82,9 @@ a { text-decoration:none; color:inherit; }
 .kw-price th { background:var(--kw-teal); color:#fff; text-align:left; padding:.9rem 1.1rem; font-size:.9rem; }
 .kw-price td { padding:.85rem 1.1rem; border-bottom:1px solid var(--kw-mist); font-size:.93rem; }
 .kw-price tr:nth-child(even) td { background:#f8faf9; }
+.kw-price td { vertical-align:middle; }
+.kw-price td:first-child { font-weight:600; color:var(--kw-ink); white-space:nowrap; }
+.kw-price tbody tr:hover td { background:var(--kw-teal-soft); }
 .kw-price-note { margin-top:1rem; font-size:.84rem; color:#64748b; text-align:center; }
 
 .kw-proof { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:1rem; }
