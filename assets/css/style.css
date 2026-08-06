@@ -74,6 +74,8 @@ a { text-decoration:none; color:inherit; }
 .kw-model-row ul li::before { content:"✓ "; color:var(--kw-teal-soft); font-weight:800; }
 .kw-model-row a { background:var(--kw-teal); color:#fff; padding:.55rem 1.1rem; border-radius:999px; font-weight:700; font-size:.85rem; white-space:nowrap; transition:.25s; }
 .kw-model-row a:hover { background:var(--kw-teal-soft); }
+.kw-model-row img { width:104px; height:68px; object-fit:cover; border-radius:10px; flex:0 0 auto; }
+.kw-thumb { width:52px; height:36px; object-fit:cover; border-radius:6px; vertical-align:middle; margin-right:.5rem; display:inline-block; }
 
 .kw-price { background:#fff; }
 .kw-price table { width:100%; border-collapse:collapse; background:#fff; border-radius:18px; overflow:hidden; box-shadow:0 10px 30px rgba(15,23,42,.08); }
