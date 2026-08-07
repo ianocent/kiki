@@ -18,6 +18,6 @@ Website: [https://suzukibuanaindomobiltrada.com](https://suzukibuanaindomobiltra
 [Chat WhatsApp Sekarang](https://wa.me/6281299792420?text=Halo%20Kak%20Kiki%2C%20saya%20mau%20info%20promo%20Suzuki%20Tangerang)
 
 ---
-**Keyword:** dealer suzuki tangerang, suzuki tangerang, sales suzuki tangerang, promo suzuki tangerang, kredit suzuki dp ringan tangerang, ertiga hybrid tangerang, xl7 tangerang, jimny tangerang
+**Keyword:** suzuki tangerang, suzuki carry pick up, dealer suzuki gading serpong, harga xl7, suzuki bsd, harga suzuki fronx
 
 © 2026 Sales Kiki Wulandari — Suzuki Tangerang
