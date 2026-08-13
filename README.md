@@ -1,6 +1,6 @@
 # Sales Suzuki Tangerang - Kiki Wulandari
 
-**Sales Resmi Suzuki Tangerang** — bantu warga Tangerang, BSD, Ciledug, Karawaci, Balaraja, Cikupa dapat unit Suzuki impian dengan skema kredit paling pas.
+**Sales Resmi Suzuki Tangerang** — bantu warga Tangerang, Ciledug, Karawaci, Balaraja, Cikupa dapat unit Suzuki impian dengan skema kredit paling pas.
 
 Sales: **Kiki Wulandari**
 WhatsApp/Telepon: **0812-9979-2420** (24 jam)
@@ -11,7 +11,7 @@ Website: [https://suzukibuanaindomobiltrada.com](https://suzukibuanaindomobiltra
 ## Dapatkan dari Kiki
 - Info promo Suzuki Tangerang terbaru (Ertiga Hybrid, XL7, Grand Vitara, Jimny, Fronx, S-Presso, Carry Pick Up, APV)
 - Estimasi DP ringan & cicilan semua leasing
-- Test drive gratis area Tangerang & BSD
+- Test drive gratis area Tangerang & Karawaci
 - Proses kredit cepat 1-3 hari
 
 ## WhatsApp
