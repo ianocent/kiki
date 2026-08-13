@@ -11,7 +11,7 @@ Website: [https://suzukibuanaindomobiltrada.com](https://suzukibuanaindomobiltra
 ## Dapatkan dari Kiki
 - Info promo Suzuki Tangerang terbaru (Ertiga Hybrid, XL7, Grand Vitara, Jimny, Fronx, S-Presso, Carry Pick Up, APV)
 - Estimasi DP ringan & cicilan semua leasing
-- Test drive gratis area Tangerang & Karawaci
+- Test drive gratis area Tangerang, Jakarta Utara & Bekasi
 - Proses kredit cepat 1-3 hari
 
 ## WhatsApp
