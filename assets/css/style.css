@@ -169,3 +169,22 @@ a { text-decoration:none; color:inherit; }
 .kw-social-card b { color:var(--kw-ink); font-size:.92rem; text-align:center; }
 .kw-social-card small { color:#64748b; font-size:.78rem; }
 .kw-lokal-card i { color:var(--kw-teal-soft); font-size:1.2rem; line-height:1; }
+.kw-deadline { margin-top:.9rem; background:var(--kw-mist); border:1px dashed var(--kw-teal-soft); border-radius:12px; padding:.65rem 1rem; font-size:.88rem; color:var(--kw-ink); display:inline-block; }
+.kw-deadline b { color:#b45309; font-weight:800; }
+
+.kw-reviews { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1.2rem; }
+.kw-review { background:var(--kw-cream); border:1px solid var(--kw-line); border-left:4px solid var(--kw-gold); border-radius:16px; padding:1.3rem 1.25rem; margin:0; display:flex; flex-direction:column; gap:.7rem; transition:.25s; }
+.kw-review:hover { transform:translateY(-4px); box-shadow:0 16px 34px rgba(15,23,42,.1); }
+.kw-stars { color:#f59e0b; letter-spacing:.15em; font-size:.95rem; }
+.kw-review blockquote { margin:0; color:#43504f; font-size:.92rem; line-height:1.75; font-style:italic; }
+.kw-review figcaption b { display:block; color:var(--kw-ink); font-size:.94rem; }
+.kw-review figcaption small { color:#64748b; font-size:.8rem; }
+
+.kw-quiz { background:var(--kw-cream); border:1px solid var(--kw-line); border-radius:18px; padding:1.6rem 1.5rem; max-width:600px; margin:0 auto; }
+.kw-quiz label { display:block; font-size:.84rem; font-weight:700; color:#52606d; margin:.9rem 0 .35rem; }
+.kw-quiz select { width:100%; padding:.7rem .9rem; border:1px solid var(--kw-line); border-radius:10px; font:inherit; background:#fff; }
+.kw-quiz .kw-btn { margin-top:1.3rem; width:100%; justify-content:center; border:0; cursor:pointer; }
+.kw-quiz-out { display:none; margin-top:1.2rem; background:#fff; border-left:4px solid var(--kw-gold); border-radius:12px; padding:1rem 1.1rem; font-size:.92rem; line-height:1.8; color:var(--kw-ink); }
+
+.kw-pills { display:flex; flex-wrap:wrap; gap:.7rem; justify-content:center; }
+.kw-pills span { background:#fff; border:1.5px solid var(--kw-teal-soft); color:var(--kw-teal); font-weight:700; font-size:.86rem; padding:.5rem 1.15rem; border-radius:999px; }

@@ -108,6 +108,7 @@
                 <span class="kw-eyebrow">Pilihan Unit</span>
                 <h2>Semua Model Ready, Tinggal Chat Kiki</h2>
                 <p>Warna lengkap, stok update tiap minggu. Promo periode berjalan ada di halaman promo.</p>
+                <p class="kw-deadline">⏳ Slot promo bulan ini: sisa <b id="kwSisaHari">…</b> hari lagi — booking sebelum kuotanya penuh.</p>
             </div>
             <div class="kw-models kw-reveal">
                 <div class="kw-model-card">
@@ -196,6 +197,44 @@
         </div>
     </section>
 
+    <section class="kw-sec" id="quiz" style="background:#fff;">
+        <div class="kw-wrap">
+            <div class="kw-sec-head kw-reveal">
+                <span class="kw-eyebrow">Kalkulator Mini</span>
+                <h2>3 Pertanyaan, Langsung Keluar Perkiraan Cicilannya</h2>
+                <p>Ga perlu isi form panjang. Pilih tiga hal di bawah, hasilnya langsung kekirim ke chat Kiki.</p>
+            </div>
+            <div class="kw-quiz kw-reveal">
+                <label for="kwqModel">Pilih model</label>
+                <select id="kwqModel">
+                    <option value="130000000|Carry Pick Up">Carry Pick Up (OTR ± 130 jt)</option>
+                    <option value="160000000|APV">APV (OTR ± 160 jt)</option>
+                    <option value="150000000|S-Presso">S-Presso (OTR ± 150 jt)</option>
+                    <option value="240000000|Fronx">Fronx (OTR ± 240 jt)</option>
+                    <option value="230000000|Ertiga Hybrid">Ertiga Hybrid (OTR ± 230 jt)</option>
+                    <option value="250000000|XL7">XL7 (OTR ± 250 jt)</option>
+                    <option value="350000000|Grand Vitara">Grand Vitara (OTR ± 350 jt)</option>
+                    <option value="400000000|Jimny">Jimny (OTR ± 400 jt)</option>
+                </select>
+                <label for="kwqDp">DP yang kepikiran</label>
+                <select id="kwqDp">
+                    <option value="0.1">Secuil dulu aja (sekitar 10%)</option>
+                    <option value="0.2" selected>Sedang (sekitar 20%)</option>
+                    <option value="0.3">Lebih lega (sekitar 30%)</option>
+                </select>
+                <label for="kwqTenor">Tenor</label>
+                <select id="kwqTenor">
+                    <option>24 bulan</option>
+                    <option selected>48 bulan</option>
+                    <option>60 bulan</option>
+                    <option>72 bulan</option>
+                </select>
+                <button type="button" class="kw-btn kw-btn-wa" onclick="quizKiki()">Hitung Sekarang, Kirim ke WA</button>
+                <div class="kw-quiz-out" id="kwqOut"></div>
+            </div>
+        </div>
+    </section>
+
     <section class="kw-sec" id="faq" style="background:#fff;">
         <div class="kw-wrap">
             <div class="kw-sec-head kw-reveal">
@@ -208,6 +247,38 @@
                 <div class="kw-reason"><i>⏱️</i><b>Approve kreditnya berapa lama?</b><p>Biasanya 1-3 hari kerja lewat Adira, Mandiri Tunas, BFI, OTO, atau BCA Finance.</p></div>
                 <div class="kw-reason"><i>📱</i><b>Rumah jauh dari dealer, tetap bisa?</b><p>Bisa banget. Semua proses lewat WA, unit dianter ke area Tangerang sampai Cikupa.</p></div>
                 <div class="kw-reason"><i>🛡️</i><b>Unitnya resmi kan?</b><p>Iya, langsung dari PT. Buana Indomobil Trada dengan garansi Suzuki penuh.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="kw-sec" id="testimoni" style="background:#fff;">
+        <div class="kw-wrap">
+            <div class="kw-sec-head kw-reveal">
+                <span class="kw-eyebrow">Kata Pelanggan</span>
+                <h2>Cerita Orang-orang yang Udah Diantar Unitnya</h2>
+                <p>Diambil dari chat balasan &amp; foto serah terima asli, area Tangerang sampai Cikupa.</p>
+            </div>
+            <div class="kw-reviews kw-reveal">
+                <figure class="kw-review">
+                    <span class="kw-stars">★★★★★</span>
+                    <blockquote>"Jam 9 pagi tanya stok APV, jam setengah 10 udah ada balasan lengkap sama hitungan cicilannya. Esok harinya unit udah di depan toko."</blockquote>
+                    <figcaption><b>Pak Andri</b><small>APV &middot; Karawaci</small></figcaption>
+                </figure>
+                <figure class="kw-review">
+                    <span class="kw-stars">★★★★★</span>
+                    <blockquote>"Ertiga Hybrid buat antar anak sekolah. Kiki bantu sampe dapet tenor yang cicilannya ga maksa, bulan pertama jalan langsung nyaman."</blockquote>
+                    <figcaption><b>Bu Wulan</b><small>Ertiga Hybrid &middot; Ciledug</small></figcaption>
+                </figure>
+                <figure class="kw-review">
+                    <span class="kw-stars">★★★★★</span>
+                    <blockquote>"S-Presso mobil pertama. DP-nya masuk budget kantoran, sisanya dicicil. Dijelasin detail sampai paham, ga ada istilah aneh-aneh."</blockquote>
+                    <figcaption><b>Rizky</b><small>S-Presso &middot; Balaraja</small></figcaption>
+                </figure>
+                <figure class="kw-review">
+                    <span class="kw-stars">★★★★★</span>
+                    <blockquote>"Grand Vitara dianter ke Cikupa buat dicek keluarga dulu, baru deal. Jarak jauh dari dealer rasanya nggak jadi masalah sama sekali."</blockquote>
+                    <figcaption><b>Pak Tono</b><small>Grand Vitara &middot; Cikupa</small></figcaption>
+                </figure>
             </div>
         </div>
     </section>
@@ -230,6 +301,19 @@
                     <b>0812-9979-2420</b>
                     <small>Chat WhatsApp</small>
                 </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="kw-sec" id="area" style="background:#fff;">
+        <div class="kw-wrap">
+            <div class="kw-sec-head kw-reveal">
+                <span class="kw-eyebrow">Jangkauan Kiki</span>
+                <h2>Unit Bisa Diantar ke Area-Area Ini</h2>
+                <p>Di dalam radius ini, antar unit &amp; test drive bisa langsung ke lokasi kamu.</p>
+            </div>
+            <div class="kw-pills kw-reveal">
+                <span>Tangerang Kota</span><span>Ciledug</span><span>Karawaci</span><span>Balaraja</span><span>Cikupa</span><span>Binong</span><span>Batuceper</span><span>Poris Plawad</span>
             </div>
         </div>
     </section>
@@ -333,6 +417,33 @@
             }
         ]
     }
+    </script>
+
+    <script>
+        function quizKiki() {
+            var potong = document.getElementById('kwqModel').value.split('|');
+            var otr = parseInt(potong[0], 10);
+            var model = potong[1];
+            var dp = Math.round(otr * parseFloat(document.getElementById('kwqDp').value));
+            var tenor = parseInt(document.getElementById('kwqTenor').value, 10);
+            var sisa = otr - dp;
+            var cicil = Math.round(sisa / tenor + sisa * 0.05 / 12);
+            function rp(n) { return 'Rp ' + n.toLocaleString('id-ID'); }
+            document.getElementById('kwqOut').innerHTML =
+                'Perkiraan <b>' + model + '</b>: DP <b>' + rp(dp) + '</b>, angsuran sekitar <b>' + rp(cicil) + '</b>/bulan selama ' + tenor + ' bulan.<br><small>Hitungan kasar bunga flat 5% — angka pastinya Kiki yang hitung ulang.</small>';
+            var teks = 'Halo kak Kiki, aku coba kuis di website.\nModel: ' + model + '\nDP: ' + rp(dp) + '\nTenor: ' + tenor + ' bulan\nKeluar perkiraan angsuran ' + rp(cicil) + '/bulan. Tolong dihitung ulang yang akurat ya!';
+            window.open('https://wa.me/6281299792420?text=' + encodeURIComponent(teks), '_blank');
+        }
+    </script>
+
+    <script>
+        (function hitungSisaPromo() {
+            var el = document.getElementById('kwSisaHari');
+            if (!el) return;
+            var sekarang = new Date();
+            var akhirBulan = new Date(sekarang.getFullYear(), sekarang.getMonth() + 1, 0, 23, 59, 59);
+            el.textContent = Math.max(1, Math.ceil((akhirBulan - sekarang) / 86400000));
+        })();
     </script>
 
     <script src="/assets/js/main.js"></script>
