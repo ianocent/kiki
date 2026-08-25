@@ -2,7 +2,11 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+    <meta name="theme-color" content="#134e4a">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
     <title>Spesifikasi Suzuki 2026 - 8 Model Tangerang | Kiki</title>
     <meta name="description" content="Spesifikasi mobil Suzuki 2026 lengkap: S-Presso sampai Jimny. Bonus, promo &amp; harga OTR Tangerang. Sales resmi Kiki 0812-9979-2420." />
@@ -58,6 +62,7 @@
         .kw-spec h4 { font-size:1rem; color:var(--kw-teal); margin-top:1rem; }
         @media (max-width: 900px) { .kw-spec { grid-template-columns:1fr; } }
     </style>
+    <link rel="stylesheet" href="/assets/css/app-mobile.css">
 </head>
 <body>
 
@@ -431,5 +436,12 @@
     <script src="/assets/js/calc-core.js"></script>
     <script src="/assets/js/calc.js"></script>
     <script src="/assets/js/main.js"></script>
-</body>
+<nav class="kw-appbar" aria-label="Menu cepat">
+    <a href="/"><i class="bx bxs-home"></i><span>Home</span></a>
+    <a href="/promo/"><i class="bx bxs-megaphone"></i><span>Promo</span></a>
+    <a class="kw-wa" href="https://wa.me/6281299792420?text=hallo%20kak%20Kiki%2C%20mau%20tanya%20untuk%20unit%20suzukinya" target="_blank" rel="noopener"><i class="bx bxl-whatsapp"></i><span>Kiki</span></a>
+    <a href="/harga/"><i class="bx bx-purchase-tag-alt"></i><span>DP</span></a>
+    <a href="/galeri/"><i class="bx bxs-photo-album"></i><span>Galeri</span></a>
+</nav>
+<script>(function(){var p=location.pathname;document.querySelectorAll('.kw-appbar a').forEach(function(a){if(a.pathname===p)a.classList.add('kw-on')});})();</script></body>
 </html>
