@@ -9,7 +9,7 @@ repo: git@github.com:ianocent/kiki.git
 tema:
   prefix_css: kw
   img_prefix: kiki
-  img_area_slug: gadingserpong
+  img_area_slug: tangerang
   alt_area: Tangerang
 
 kalkulator:
